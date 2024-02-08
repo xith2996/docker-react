@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install: 
+  - docker build -t xith/docker-react -f Dockerfile.dev .
+
+script: 
+  - docker run xith/docker-react npm run test -- --coverage
