@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Bye! 555 ABCDFE
+          Test edit text on `feature` branch.
         </a>
       </header>
     </div>
