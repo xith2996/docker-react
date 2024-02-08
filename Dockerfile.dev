@@ -4,5 +4,4 @@ COPY package.json .
 RUN npm install
 RUN apk add nano
 COPY . .
-# ENV CHOKIDAR_USEPOLLING=true
 CMD [ "npm", "start" ]
